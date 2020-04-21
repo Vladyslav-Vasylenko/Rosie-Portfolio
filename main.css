@@ -6,10 +6,13 @@
 }
 
 @font-face {
-    font-family: 'The Historia Demo';
-    src: url("fonts/TheHistoriaDemo.ttf") format ('truetype');
+    font-family: 'The-Historia-Demo';
+    src:url('fonts/The-Historia-Demo.ttf.woff') format('woff'),
+        url('fonts/The-Historia-Demo.ttf.svg#The-Historia-Demo') format('svg'),
+        url('fonts/The-Historia-Demo.ttf.eot'),
+        url('fonts/The-Historia-Demo.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
-    font-style:
+    font-style: normal;
 }
 
 html {
@@ -133,7 +136,7 @@ li {
 }
 
 .nav-link {
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'The-Historia-Demo', sans-serif;
     font-size: 4rem;
     padding: 0;
 }
@@ -210,7 +213,7 @@ li {
 
 .landing-text h1 {
     font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'The-Historia-Demo', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -501,6 +504,11 @@ input[type="submit"]:hover {
 .copyright p {
     font-size: 1.4rem;
 }
+
+.copyright a {
+    color: #4267b2;;
+}
+
 /*End footer*/
 
 /*Start animations*/
